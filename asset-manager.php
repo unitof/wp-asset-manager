@@ -27,6 +27,11 @@ define( 'AM_VERSION', '0.0.1' );
 define( 'AM_BASE_DIR', dirname( __FILE__ ) );
 
 /**
+ * Load traits.
+ */
+require_once AM_BASE_DIR . '/php/traits/trait-conditions.php';
+
+/**
  * Load base classes
  */
 require_once AM_BASE_DIR . '/php/class-asset-manager.php';
