@@ -298,11 +298,9 @@ class Asset_Manager_Core_Tests extends Asset_Manager_Test {
 			],
 			[
 				'handle'      => 'jquery',
-				'src'         => false,
+				'src'         => '/wp-includes/js/jquery/jquery.js',
 				'condition'   => 'global',
-				'deps'        => [
-					'jquery-core',
-				],
+				'deps'        => [],
 				'in_footer'   => false,
 				'load_hook'   => 'wp_head',
 				'loaded'      => true,
